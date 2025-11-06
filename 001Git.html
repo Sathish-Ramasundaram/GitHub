@@ -18,12 +18,23 @@
 
         <h3>git push -u origin main</h3>
         <p>Pushes your main branch to GitHub and sets it as default upstream.</p>
+        <p>Pushes and sets a link (so next time you can just type git push or git pull).</p>
+        <p>origin - Default name for your GitHub remote - Shortcut to GitHub URL</p>
+        <p>Use -u the first time you push a branch.</p>
+
+        <h3>git push origin main</h3>
+        <p>Pushes code manually to remote. If branch already linked. It does not remember this connection.</p>
+        <p>you will always need to type origin main each time.</p>
 
         <h3>git push -u origin master</h3>
         <p>Pushes the master branch to GitHub (only if it still exists locally).</p>
 
         <h3>git branch</h3>
         <p>Lists all local branches and highlights the current one.</p>
+        <p>
+            main - Default branch name (new standard) - Inclusive, consistent, modern
+            <br>master	- Old default branch name - Still works, but not preferred now
+        </p>
 
         <h3>git branch -m master main</h3>
         <p>Renames the current branch from master to main.</p>
@@ -32,11 +43,5 @@
         <p>Shows the current state of your working directory and staging area.</p>
         <br>
 
-        <h3><i>Notes:</i></h3>
-        <p>
-            origin	- Default name for your GitHub remote - Shortcut to GitHub URL
-            <br>main - Default branch name (new standard) - Inclusive, consistent, modern
-            <br>master	- Old default branch name - Still works, but not preferred now
-        </p>
     </body>
 </html>
